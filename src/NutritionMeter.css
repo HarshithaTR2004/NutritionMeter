@@ -1,0 +1,154 @@
+/* NutritionMeter.css */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.openbtn {
+  background-color: #008cba;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.openbtn:hover {
+  background-color: #006f9a;
+}
+
+.main-content {
+  margin-top: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.input-field {
+  margin: 5px;
+  padding: 10px;
+  width: 150px;
+}
+
+.button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.icon-button {
+  margin: 5px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+}
+
+.icon-button:hover {
+  background-color: #e0e0e0;
+}
+
+.item-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.warning-message {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Drawer styles */
+.drawer {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.drawer.open {
+  width: 300px;
+}
+
+.closebtn {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.drawer-content {
+  color: white;
+  padding: 20px;
+  text-align: left;
+}
+
+.drawer-content label {
+  display: block;
+  margin: 10px 0;
+}
+
+.drawer-content input,
+.drawer-content select {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #111; /* Dark text color for better visibility */
+  background-color: #ddd; /* Light background color for contrast */
+}
+
+.drawer-content button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.drawer-content button:hover {
+  background-color: #45a049;
+}
